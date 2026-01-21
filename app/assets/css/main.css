@@ -1,2 +1,21 @@
 @import 'tailwindcss';
 @import './site.css';
+
+@theme {
+  /* Nebula */
+  --color-nebula-brand: #7a98ff;
+  --color-nebula-slate-50: #89abff;
+  --color-nebula-slate-100: #7896e1;
+  --color-nebula-slate-200: #647dbe;
+  --color-nebula-slate-300: #546aa2;
+  --color-nebula-slate-400: #4c5673;
+  --color-nebula-slate-500: #414b67;
+  --color-nebula-slate-600: #363e57;
+  --color-nebula-slate-700: #303443;
+  --color-nebula-slate-800: #2b2f3e;
+  --color-nebula-slate-900: #1f2330;
+  --color-nebula-slate-950: #040814;
+
+  --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+}
